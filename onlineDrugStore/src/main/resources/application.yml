@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password: wangmumu321
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/online_drugstore
+    type: com.alibaba.druid.pool.DruidDataSource
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+uuid: 579ec280-93ea-453c-ac62-699a59ee3069
+tokenDeprecatedMinutes: 300
+server:
+  port: 9000
